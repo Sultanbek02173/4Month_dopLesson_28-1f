@@ -19,6 +19,7 @@ function App() {
         <button onClick={() => setResult(num1 - num2)}>-</button>
         <button onClick={() => setResult(num1 * num2)}>*</button>
         <button onClick={() => setResult(num1 / num2)}>/</button>
+        <button onClick={() => setResult(num1 ** num2)}>^</button>
       </div>
       <h1>Result:</h1>
       <h2>{result}</h2>
